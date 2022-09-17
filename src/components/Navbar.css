@@ -1,0 +1,33 @@
+.navbar {
+  z-index: 10;
+  position: sticky;
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 130rem;
+  margin: 0 auto;
+  height: 70px;
+  padding: 2rem;
+  background-color: #939393e7;
+}
+
+.home-link {
+  color: rgb(161, 88, 88);
+  text-decoration: none;
+  font-size: 2.3rem;
+}
+/**************NAVIGATION************/
+.main-nav-list {
+  list-style: none;
+  display: flex;
+  gap: 3.5rem;
+}
+
+.main-nav-link:link,
+.main-nav-link:visited {
+  text-decoration: none;
+  color: rgb(54, 54, 54);
+  font-weight: 500;
+  font-size: 1.4rem;
+}

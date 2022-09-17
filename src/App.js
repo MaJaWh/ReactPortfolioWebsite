@@ -2,13 +2,13 @@ import "./App.css";
 import Navbar from "./components/Navbar";
 import List from "./components/List";
 import Card from "./components/Card";
-import Section from "./components/Section";
+import HeroSection from "./components/HeroSection";
 
 function App() {
   return (
     <div>
       <Navbar></Navbar>
-      <Section></Section>
+      <HeroSection></HeroSection>
       <Card></Card>
       <List></List>
     </div>
